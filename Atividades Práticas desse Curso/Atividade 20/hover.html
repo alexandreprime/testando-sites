@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*O símbolo > mostra as tags depois dele 
+        é o filho da primeira tag e esse fulho dentro dessa tag 
+        sofrerá alterações*/
+        div > p {
+            display: none;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+        /*o símbolo : diz que quando passar o mouse
+        em cima da tag selecionada alguma ação será executada
+        como mudar de cor*/
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        CADÊ O COMUNISMO... CADÊ O COMUNISMO
+        <p>ACHOU!</p>
+    </div>
+    
+</body>
+</html>

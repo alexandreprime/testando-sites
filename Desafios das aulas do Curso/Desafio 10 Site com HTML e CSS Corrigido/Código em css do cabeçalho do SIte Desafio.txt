@@ -1,0 +1,74 @@
+CSS do cabeçalho do Desafio do Site Android
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+header h1 {
+    color: #1a5c37;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header p {
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #1a5c37;
+    margin: 10px 0;
+}
+
+nav a {
+    color: white;
+    background-color: #1a5c37;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    background-color: #2d8a4e;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+main h2 {
+    color: #1a5c37;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+main p {
+    line-height: 1.5;
+    text-align: justify;
+}

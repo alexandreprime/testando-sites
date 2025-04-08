@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    /*Famílias de fontes*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*Tamanhos de fontes*/
+    font-size: 1em;
+    /*A W3C orgão oficial de HTML e CSS recomenda usar as medidas px
+    e em para tamanhos de fontes em CSS*/
+}
+ /*Modo Grande de configurar fontes em CSS
+    font-family: 'work sans', sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+    font-style: italic;*/ 
+
+    /*Usando shorthands para encurtar e facilitar o código
+    E é para seguir essa ordem 
+    ---------------------------------->
+    - font-style -> font-weight -> font-size -> font-family*/
+    
+h1{
+    font: italic bolder 3em Arial, sans-serif;
+}

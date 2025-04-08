@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    font: normal 16px Arial, Verdana, serif;
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: right;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+    /*text-indent = tag usada para dar um espaço inicial de um 
+    parágrafo que nem Redação*/
+}
